@@ -1,6 +1,6 @@
 # Bootstrap5 Project
 
-This is the Boostrap5 project[Bootstrap5 project](https://ac-dc-tickets.netlify.app/). 
+This is the Boostrap5 project [Bootstrap5 project](https://ac-dc-tickets.netlify.app/). 
 
 ## Table of contents
 
