@@ -21,7 +21,7 @@ Built  with and HTML and Bootstrap5. This project is based on practicing Bootstr
 
 ### Screenshot
 
-![mobile](design/mobile-ss.jpg)
+![mobile](design/274842029_508927200655932_3048399182611795792_n.jpg)
 
 ![site](design/ss-desktop.png)
 
