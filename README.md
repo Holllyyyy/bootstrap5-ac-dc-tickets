@@ -1,6 +1,6 @@
 # Bootstrap5 Project
 
-This is a solution to the [Bootstrap5 project](https://ac-dc-tickets.netlify.app/). 
+This is the Boostrap5 project [Bootstrap5 project](https://ac-dc-tickets.netlify.app/). 
 
 ## Table of contents
 
@@ -27,7 +27,7 @@ Built  with and HTML and Bootstrap5. This project is based on practicing Bootstr
 
 ### Links
 
-- Solution URL: [https://github.com/Holllyyyy/profile-card](https://github.com/Holllyyyy/profile-card)
+- Solution URL: [https://github.com/Holllyyyy/bootstrap5-ac-dc-tickets](https://github.com/Holllyyyy/bootstrap5-ac-dc-tickets)
 - Live Site URL: [https://ac-dc-tickets.netlify.app/](https://ac-dc-tickets.netlify.app/)
 
 ## My process
@@ -234,4 +234,4 @@ I want to practice more Bootstrap5, also what I want to do, to download it local
 - Website - [Svetlana Jokic](https://my-portfolio-hollyy.netlify.app/)
 - Frontend Mentor - [@Holllyyyy](https://www.frontendmentor.io/profile/Holllyyyy)
 - Twitter - [@svetlanajokic](https://twitter.com/svetlanajokic)
-  -LinkedIn - [@Svetlana Jokic](https://www.linkedin.com/in/svetlana-jokic-787432100/)
+- LinkedIn - [@Svetlana Jokic](https://www.linkedin.com/in/svetlana-jokic-787432100/)
