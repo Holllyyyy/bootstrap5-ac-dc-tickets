@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AC DC</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <style>
+    section {
+      padding: 60px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md navbar-light pt-3 pb-3">
+    <div class="container-xxl">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand" href="#intro">
+        <i class="bi bi-music-note"></i>
+        <span class="text-danger fw-bold"> AC-DC concert tickets </span>
+      </a>
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+        aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#topics">The Concert </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#reviews">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#contact">Get in Touch</a>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link text-dark" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item ms-2 d-none d-md-inline">
+            <a class="btn btn-dark" href="#pricing">Book now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- main image & intro text -->
+  <section id="intro">
+    <div class="container-lg">
+      <div class="row g-4 justify-content-center align-items-center">
+        <div class="col-md-5 text-center text-md-start">
+          <h1>
+            <div class="display-2 fw-bold">AC/DC</div>
+            <div class="display-5 text-danger fw-bold">Book your place</div>
+          </h1>
+          <p class="lead my-4 text-dark">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Laboriosam, dignissimos?
+          </p>
+          <a href="#pricing" class="btn btn-dark btn-lg">Book Now</a>
+          <a href="#sidebar" class="d-block mt-3 text-danger" data-bs-toggle="offcanvas" role="button" aria-controls="sidebars">See our world tours</a>
+          
+        </div>
+        <div class="col-md-4 text-center d-none d-md-block">
+          <span class="tt" data-bs-placement="bottom" title="AC/DC poster">
+            <img src="./assets/angus-young-g40efa6e79_1280.png" class="img-fluid" alt="cover of ac dc band" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- pricing plans -->
+  <section id="pricing" class="bg-light mt-5">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2 class="display-3 text-dark fw-bold">The Concert Tickets</h2>
+        <p class="lead text-danger fw-bold display-6">Choose your place</p>
+      </div>
+
+      <div class="row my-5 g-0 align-items-center justify-content-center">
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Tribune</h4>
+              <p class="lead card-subtitle">Credit cards only</p>
+              <p class="display-5 my-4 text-danger fw-bold">$80</p>
+              <p class="card-text mx-5 text-dark d-none d-lg-block">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia, vitae magni! Repellat commodi a fuga corporis saepe
+                dolorum.
+              </p>
+              <a href="#" class="btn btn-outline-danger fw-bold btn-lg mt-3">
+                Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-9 col-lg-4">
+          <div class="card border-dark border-2">
+            <div class="card-header text-center text-danger fw-bold">
+              Most Popular
+            </div>
+            <div class="card-body text-center py-5">
+              <h4 class="card-title">Fun Pit</h4>
+              <p class="lead card-subtitle">Credit Cards only</p>
+              <p class="display-4 my-4 text-danger fw-bold">$100</p>
+              <p class="card-text mx-5 text-dark d-none d-lg-block">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia, vitae magni! Repellat commodi a fuga corporis saepe
+                dolorum.
+              </p>
+              <a href="#" class="btn btn-outline-danger fw-bold btn-lg mt-3">
+                Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Ground Floor</h4>
+              <p class="lead card-subtitle">Credit Cards Only</p>
+              <p class="display-5 my-4 text-danger fw-bold">$80</p>
+              <p class="card-text mx-5 text-darkd-none d-lg-block">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia, vitae magni! Repellat commodi a fuga corporis saepe
+                dolorum.
+              </p>
+              <a href="#" class="btn btn-outline-danger fw-bold btn-lg mt-3">
+                Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end container -->
+  </section>
+
+  <!-- topics at a glance -->
+
+  <section id="topics">
+    <div class="container-md">
+      <div class="text-center">
+        <h2 class="text-danger fw-bold">The Concert...</h2>
+        <p class="lead text-dark">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          adipisci non provident
+        </p>
+      </div>
+
+      <div class="row my-5 g-5 align-items-center">
+        <div class="col-xs-12  col-sm-12 col-lg-6">
+          <img src="https://static.dw.com/image/19266523_303.jpg" alt="concert picture" class="img-fluid" />
+        </div>
+
+        <div class="col-lg-6">
+          <!---Accordion-->
+          <div class="accordion" id="history">
+            <div class="accordion-item">
+              <h2 class="accordion-header " id="heading-1">
+                <button class="accordion-button bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#story"
+                  aria-expanded="true" aria-controls="story">
+                  How all started?
+                </button>
+              </h2>
+              <div id="story" class="accordion-collapse collapse show" aria-labelledby="heading-1"
+                data-bs-parent="#history">
+                <div class="accordion-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A maiores
+                    laboriosam officia tenetur autem amet, quibusdam aspernatur qui,
+                    veniam adipisci debitis est perferendis eaque ipsum, dolores
+                    minima? Quas, repudiandae iusto.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-2">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#story-1"
+                  aria-expanded="false" aria-controls="story-1">
+                  Albums
+                </button>
+              </h2>
+              <div id="story-1" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                data-bs-parent="#history">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi,
+                    ullam illo adipisci quaerat dolorem dolorum aliquid culpa placeat deleniti
+                    autem esse ratione explicabo aut minima molestiae distinctio ex neque corrupti.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#story-3" aria-expanded="false" aria-controls="story-3">
+                  World Tours
+                </button>
+              </h2>
+              <div id="story-3" class="accordion-collapse collapse" aria-labelledby="heading-3"
+                data-bs-parent="#history">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, ullam illo adipisci quaerat
+                    dolorem
+                    dolorum aliquid culpa placeat
+                    deleniti autem esse ratione explicabo aut minima molestiae distinctio ex neque corrupti.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- reviews list -->
+
+
+
+  <section id="reviews" class="bg-light">
+    <div class="container-lg">
+      <div class="text-center">
+
+        <h2 class="text-dark"><i class="bi bi-music-note-list text-danger "></i> Fan reviews <i class="bi bi-music-note-list text-danger"></i></h2>
+        <p class="lead text-dark fw-bold">What our fans have said about the concert...</p>
+      </div>
+
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-8">
+          <div class="list-group">
+            <div class="list-group-item py-3">
+              <div><i class="bi bi-star-fill  text-danger"></i>
+                <i class="bi bi-star-fill  text-danger text-danger"></i>
+                <i class="bi bi-star-fill text-danger"></i>
+                <i class="bi bi-star-fill text-danger"></i>
+                <i class="bi bi-star-fill text-danger"></i>
+              </div>
+              <h5 class="mb-1 mt-1">Rock and roll</h5>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita
+                est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate
+                repellat in id quisquam.</p>
+              <small>Review by Mario</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div><i class="bi bi-star-fill  text-danger"></i>
+                <i class="bi bi-star-fill  text-danger text-danger"></i>
+                <i class="bi bi-star-fill text-danger"></i>
+                <i class="bi bi-star-fill text-danger"></i>
+                <i class="bi bi-star-fill text-danger"></i>
+              </div>
+              <h5 class="mb-1 mt-1">Rock and roll</h5>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita
+                est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate
+                repellat in id quisquam.</p>
+              <small>Review by Dave</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div><i class="bi bi-star-fill  text-danger"></i>
+                <i class="bi bi-star-fill  text-danger text-danger"></i>
+                <i class="bi bi-star-fill text-danger"></i>
+                <i class="bi bi-star-fill text-danger"></i>
+                <i class="bi bi-star-fill text-danger"></i>
+              </div>
+              <h5 class="mb-1 mt-1">Rock and roll</h5>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita
+                est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate
+                repellat in id quisquam.</p>
+              <small>Review by Mary</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div><i class="bi bi-star-fill  text-danger"></i>
+                <i class="bi bi-star-fill  text-danger text-danger"></i>
+                <i class="bi bi-star-fill text-danger"></i>
+                <i class="bi bi-star-fill text-danger"></i>
+                <i class="bi bi-star-fill text-danger"></i>
+              </div>
+              <h5 class="mb-1 mt-1">Rock and roll</h5>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita
+                est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate
+                repellat in id quisquam.</p>
+              <small>Review by John</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div><i class="bi bi-star-fill  text-danger"></i>
+                <i class="bi bi-star-fill  text-danger text-danger"></i>
+                <i class="bi bi-star-fill text-danger"></i>
+                <i class="bi bi-star-fill text-danger"></i>
+                <i class="bi bi-star-fill text-danger"></i>
+              </div>
+              <h5 class="mb-1 mt-1">Rock and roll</h5>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita
+                est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate
+                repellat in id quisquam.</p>
+              <small>Review by Ann</small>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact form -->
+
+  <section class="" id="contact">
+    <div class="container-lg">
+
+      <div class="text-center">
+        <h2 class="text-danger">Subscribe</h2>
+        <p class="lead text-dark">Have some question, or any wish ? Feel free to contact us...</p>
+      </div>
+
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-6">
+          <form>
+            <label for="email" class="form-label">Your email:</label>
+            <div class=" mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-heart-fill"></i>
+              </span>
+
+              <input type="email" class="form-control" id="email" placeholder=" name@gmail.com">
+              <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Enter an email address we can reply to.">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+
+            <label for="name" class="form-label">Your name:</label>
+            <div class=" mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-person-hearts"></i>
+              </span>
+              <input type="text" class="form-control" id="name" placeholder=" your name">
+              <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Enter your name.">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+            <label for="subject" class="form-label">What is your question/wish?</label>
+            <div class=" mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-card-heading"></i>
+              </span>
+              <select class="form-select" id="subject">
+                <option value="tickets-tribune">Tickets Tribune</option>
+                <option value="tickets-fun-pit">Tickets Fun Pit</option>
+                <option value="tickets-ground-floor">Tickets Ground Floor</option>
+              </select>
+            </div>
+            <div class="mb-4 mt-5 form-floating">
+
+              <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
+              <label for="query">Your question...</label>
+            </div>
+            <div class="mb-4 text-center">
+              <button type="submit" class="btn btn-danger">Submit</button>
+            </div>
+          </form>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- get updates / modal trigger -->
+
+<section class="bg-light">
+  <div class="container">
+    <div class="text-center">
+      <h6>Follow latest events with us!</h6>
+      <p class="lead">Stay tuned</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <p class="text-muted my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit
+          . Velit error commodi soluta dolorum animi pariatur aperiam alias cupiditate, reiciendis vero iusto
+           libero! Officiis nulla magni architecto accusamus veniam cupiditate eligendi.</p>
+           <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#reg-modal" >Subscribe for updates</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="modal-titlel">Get the lates updates</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, laboriosam
+         commodi. Quos illo mollitia amet iste numquam atque at exercitationem vel porro, ut accusantium architecto error, quo rerum cumque similique.</p>
+         <label for="modal-email" class="form-label">Your email adress</label>
+         <input type="text" class="form-control" id="modal-email" placeholder="name@gmail.com">
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-dark ">Submit</button>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<!----Offcanvas-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="sidebar-label">More about concert</h5>
+    <button type="button" class="btn btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <!---Dropdown-->
+  <div class="offcanvas-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel dolores praesentium obcaecati veritatis, ratione
+    , consequatur labore fugiat aspernatur excepturi natus vitae nemo culpa explicabo totam consequuntur illum, perferendis amet impedit. Lorem ipsum dolor 
+    sit amet consectetur adipisicing elit. Nam maxime corrupti quod, cumque explicabo est porro magnam? Dolor porro corrupti, necessitatibus quibusdam doloremque, 
+    saepe recusandae molestias id accusamus eius excepturi?</p>
+  <div class="dropdown mt-3">
+    <button class="btn btn-dark dropdown-toggle " type="button" id="concert-dropdown" data-bs-toggle="dropdown" >
+      Choose country</button>
+  <ul class="dropdown-menu" aria-labelledby="concert-dropdown">
+    <li><a class="dropdown-item" href="#">Paris</a></li>
+    <li><a class="dropdown-item" href="#">London</a></li>
+    <li><a class="dropdown-item" href="#">New York</a></li>
+  </ul>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script>
+    const tooltips = document.querySelectorAll('.tt')
+    tooltips.forEach(t => {
+      new bootstrap.Tooltip(t)
+    })
+  </script>
+</body>
+
+</html>
