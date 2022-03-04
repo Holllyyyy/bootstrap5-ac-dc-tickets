@@ -234,4 +234,4 @@ I want to practice more Bootstrap5, also what I want to do, to download it local
 - Website - [Svetlana Jokic](https://my-portfolio-hollyy.netlify.app/)
 - Frontend Mentor - [@Holllyyyy](https://www.frontendmentor.io/profile/Holllyyyy)
 - Twitter - [@svetlanajokic](https://twitter.com/svetlanajokic)
-  -LinkedIn - [@Svetlana Jokic](https://www.linkedin.com/in/svetlana-jokic-787432100/)
+- LinkedIn - [@Svetlana Jokic](https://www.linkedin.com/in/svetlana-jokic-787432100/)
